@@ -1,0 +1,112 @@
+/* Add your custom CSS here */
+/* Header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header-part1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.user-actions button {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-categories {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-category {
+    text-align: center;
+}
+
+.footer-category h3 {
+    margin-bottom: 10px;
+}
+
+.footer-category a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+hr {
+    border-color: #555;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+/* Home Page */
+.home-container {
+    position: relative;
+}
+
+.cover-image {
+    background-image: url('cover-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust the height as needed */
+}
+
+.logo-slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-img {
+    width: 150px; /* Adjust the logo size as needed */
+    margin-bottom: 20px;
+}
+
+.slogan {
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

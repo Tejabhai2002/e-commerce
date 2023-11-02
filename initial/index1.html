@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>E-commerce Website</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-part1">
+            <div class="logo">
+                <img src="logo.png" alt="Company Logo">
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search products">
+                <button class="btn btn-primary">Search</button>
+            </div>
+            <div class="user-actions">
+                <button class="btn btn-info login-button">Login</button>
+                <button class="btn btn-danger cart-button">
+                    <i class="fa fa-shopping-cart"></i> Cart
+                </button>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="all-products.html">All Products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="womenDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Women
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="womenDropdown">
+                            <a class="dropdown-item" href="women-all-products.html">All Products</a>
+                            <a class="dropdown-item" href="dresses.html">Dresses</a>
+                            <a class="dropdown-item" href="pants.html">Pants</a>
+                            <a class="dropdown-item" href="skirts.html">Skirts</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="womenDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Men</a>
+                            <div class="dropdown-menu" aria-labelledby="womenDropdown">
+                                <a class="dropdown-item" href="men-all-products.html">All Products</a>
+                                <a class="dropdown-item" href="Shirts.html">Shirts</a>
+                                <a class="dropdown-item" href="pants.html">Pants</a>
+                                <a class="dropdown-item" href="jackets.html">Jackets</a>
+                            </div>  
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kids.html">Kids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Content of each page will go here -->
+    
+    <!-- Footer -->
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
